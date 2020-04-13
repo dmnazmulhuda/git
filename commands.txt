@@ -4,3 +4,7 @@ git init = for initialize
 vim new.txt = for create new file
 git status = check git status
 git add new.txt = to add a file in git
+git commit -m "some test for remember" = for commit
+git commit -m "some test for remember" new.txt = commit for one file
+git commit -am "some test for remember" = commit for all file
+git diff = for show change status
