@@ -1,15 +1,25 @@
 ls = show files
 ls -al = for show all hidden file and directory
+cd trygit = enter in a folder
+cd ../ = back a folder
 git init = for initialize
 vim new.txt = for create new file
 git status = check git status
-git add new.txt = to add a file in git
+git add new.txt = add a file in git
+git add . = add all file in git
 git commit -m "some test for remember" = for commit
 git commit -m "some test for remember" new.txt = commit for one file
 git commit -am "some test for remember" = commit for all file
 git diff = for show change status
 git log = to show all history
+git log new.txt = for show history of new.txt
 git show fc2a1b = for show 'fc2a1b' id's edit history in details
 git checkout fc2a1b = for return 'fc2a1b' id's position of repository
+git checkout fc2a1b new.txt = for return 'fc2a1b' id's position of repository for only new.txt file
+git chechout master = for last editin position of git
+git chechout master -f = for last position of edit only for this file
 git remote add origin https://githib.com/dmnazmulhuda/text-demo.git = for connctect with repository
-git push -u origin master = for sending data in github repository
+git push origin master = for sending data in web repository
+git pull origin master = for get files from web repository
+cat new.txt = for show new.txt content
+alias gc="git commit" = setup a alias/shortcode
