@@ -1,8 +1,8 @@
+git init = for initialize
 ls = show files
 ls -al = for show all hidden file and directory
 cd trygit = enter in a folder
 cd ../ = back a folder
-git init = for initialize
 vim new.txt = for create new file
 git status = check git status
 git add new.txt = add a file in git
